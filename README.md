@@ -14,8 +14,9 @@ However, in this program, I applied a **theoretical method** in digital image pr
 
     Edge detection is use for detect edges of a smartphone. I used the Roberts Cross Gradient to hightlight fine details. 
     
-    The math background of Robert Corss Gradient is the first derivative of function f(x,y)
-    Gradient of f(x,y): 
+    The math background of Robert Corss Gradient is *the first derivative* of function $f(x,y)$
+    
+    Gradient of $f(x,y)$: 
     
       $$grad(f) = \begin{bmatrix}G_x \\\  G_y \end{bmatrix}$$
     
