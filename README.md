@@ -24,7 +24,7 @@ However, in this program, I applied a **theoretical method** in digital image pr
 
     The magnitude of the vector is the rate of change of the value at (x,y) along the gradient direction.
     
-     $$\nabla f(x,y) = mag(\nabla f) = \sqrt{G_x^2 + G_y} \approx |G_x| + |G_y|$$
+     $$\nabla f(x,y) = mag(\nabla f) = \sqrt{G_x^2 + G_y^2} \approx |G_x| + |G_y|$$
 
 3. Finding contours and draw it on the image:
 
