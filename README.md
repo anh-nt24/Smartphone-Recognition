@@ -18,9 +18,9 @@ However, in this program, I applied a **theoretical method** in digital image pr
     
     Gradient of $f(x,y)$: 
     
-      $$grad(f) = \begin{bmatrix}G_x \\\  G_y \end{bmatrix}$$
+      $ grad(f) = \begin{bmatrix} G_x \\\  G_y \end{bmatrix} $
     
-      $$ =\begin{bmatrix} \dfrac{\partial f(x,y)}{\partial x} = f(x+1,y) - f(x,y) \\\ \dfrac{\partial f(x,y)}{\partial y} = f(x,y+1) - f(x,y)  \end{bmatrix}$$
+      $ =\begin{bmatrix} \dfrac{\partial f(x,y)}{\partial x} = f(x+1,y) - f(x,y) \\\ \dfrac{\partial f(x,y)}{\partial y} = f(x,y+1) - f(x,y)  \end{bmatrix}$
 
     The magnitude of the vector is the rate of change of the value at (x,y) along the gradient direction.
     
@@ -31,5 +31,9 @@ However, in this program, I applied a **theoretical method** in digital image pr
   Find the contours with sides of 4 and the area meets the conditional range. Then, draw it.
 
 
-# Notes:
+# Note:
 - The program recognizes the smartphone by theoretical method so the accuracy is not really high. It is affected by brightness, other objects that may change the smartphone shape, etc.
+
+# Demo:
+![image](https://user-images.githubusercontent.com/106876168/208651247-33889a0d-b189-47e3-9523-7e52eace9b7d.png)
+
